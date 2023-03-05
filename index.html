@@ -4,9 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@300&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
     <title>Document</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container-header">
+            <div class="logo">
+                <a href="#"><img src="assets/logo.svg" alt="Logo"></a>
+            </div>
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li class="nav-element"><a href="#" class="nav-element_home"> Home</a></li>
+                    <li class="nav-element"><a href="#">Destinations</a></li>
+                    <li class="nav-element"><a href="#">About</a></li>
+                    <li class="nav-element"><a href="#">Partner</a></li>
+                </ul>
+            </nav>
+            <div class="personal-list">
+                <button class="btn btn-login">Login</button>
+                <button class="btn btn-register">Register</button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="wraper">
+            <div class="search-block">
+                <h1 class="search-title">Explore and Travel</h1>
+                <span class="search-discription">Holiday finder</span>
+                <div class="search-list">
+                    <select>
+                        <option selected>Location</option>
+                        <option>Mountains</option>
+                        <option>Lakes</option>
+                        <option>Islands</option>
+                    </select>
+                    <select>
+                        <option selected>Activity</option>
+                        <option>High</option>
+                        <option>Normal</option>
+                        <option>Low</option>
+                    </select>
+                    <select>
+                        <option selected>Grade</option>
+                        <option>5</option>
+                        <option>4</option>
+                        <option>3</option>
+                    </select>
+                    <select>
+                        <option selected>Date</option>
+                        <option>25.08.2022</option>
+                        <option>28.09.2022</option>
+                        <option>31.10.2022</option>
+                    </select>
+                </div>
+                <button class="btn btn-main">Explore</button>
+            </div>
+            <img src="assets/1.png" alt="" class="photo-main">
+        </div>
+    </div>
     
 </body>
 </html>

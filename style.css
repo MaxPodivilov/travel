@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /* 
+    font-family: 'Inter', sans-serif; 
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Playfair Display', serif;
+     */
+}
+li {
+   list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+                            /* HEADER */
+.header {
+    width:100%;
+}
+.container-header {
+    width: 1220px;
+    margin: 0 auto;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation {
+    margin-left: 400px;
+    margin-right: 40px;
+}
+.nav-list {
+    font-family: 'Inter', sans-serif; 
+    font-size: 16px;
+    display: flex;
+    gap: 35px;
+}
+.nav-element > a {
+    font-weight: 400;
+    color: #B8BECD;
+}
+.nav-element > .nav-element_home {
+    font-weight: 500;
+    color: #202336;
+}
+.nav-element > a:hover {
+    text-decoration:underline;
+    color: black;
+}
+.personal-list {
+  display: flex;
+  gap: 18px;
+}
+.btn {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    width: 132px;
+    height: 44px;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn-login {
+    color: #FB8F1D;
+    background: #fff;
+}
+.btn-register {
+    color: #fff;
+    background: #FB8F1D;
+}
+
+.btn:hover {
+    color: black;
+}
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+.wraper {
+    display: flex;
+    margin-top: 70px;
+}
+.search-block {
+    margin-top: 30px;
+}
+.search-title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #202336;
+}
+.search-discription {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #202336;
+    margin-top: 20px;
+}
+.search-list {
+    margin-top: 40px;
+}
+select {
+    margin: 10px;
+    margin-left: 0px;
+    width: 180px;
+    height: 44px;
+    padding: 10px 35px 10px 31px;
+    font-size: 16px;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(assets/Frame.svg) 90% / 6% no-repeat #fff;
+  }
+  
+  /* CAUTION: IE hackery ahead */
+  select::-ms-expand { 
+      display: none; /* remove default arrow on ie10 and ie11 */
+  }
+  
+  /* target Internet Explorer 9 to undo the custom arrow */
+  @media screen and (min-width:0\0) {
+      select {
+          background:none\9;
+          padding: 5px\9;
+      } 
+  }
+.btn-main {
+    width: 180px;
+    height: 52px;
+    margin-top: 50px;
+    background: #FB8F1D;
+    color: #fff;
+}
