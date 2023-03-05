@@ -140,3 +140,37 @@ select {
     background: #FB8F1D;
     color: #fff;
 }
+.photo-main {
+    position: relative;
+    transform: translateX(85px);
+}
+                                    /* explore */
+.explore-container {
+    margin-top: 200px;
+}
+.explore-block {
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.explore-title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+}
+.explore-discription {
+    margin: 0px;
+    width: 90%;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+}
+.explore-photo {
+    position: relative;
+    transform: translateX(-40px);
+}
