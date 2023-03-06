@@ -324,3 +324,55 @@ select {
     right: 0px;
     bottom: 5px;
 }
+
+                                    /* Stories */
+.stories-wraper {
+    margin-top: 213px;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-direction: column;
+}
+.stories-block{
+    display: flex;
+    justify-content: space-between;
+}
+.stories-title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+.stories-all {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    color: #FB8F1D;
+}
+.stories-all::after {
+    content: url(assets/vector-right.svg);
+    margin-left: 5px;
+}
+.stories-list {
+    margin-top: 50px;
+    display: flex;
+    gap:30px;
+}
+.stories-photo {
+    width: 260px;
+    height: 230px;
+}
+.stories-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 5px;
+}
