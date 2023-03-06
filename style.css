@@ -85,7 +85,9 @@ a {
     margin: 0 auto;
 }
 .wraper {
+    position: relative;
     display: flex;
+    justify-content: space-between;
     margin-top: 70px;
 }
 .search-block {
@@ -167,7 +169,7 @@ select {
 }
 .explore-discription {
     margin: 0px;
-    width: 90%;
+    width: 450px;
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 300;
@@ -184,7 +186,6 @@ select {
 
 .featur-container {
     margin-top: 290px;
-    padding: 0px 50px 0px 50px ;
 }
 .title-area {
     width: 100%;
@@ -209,7 +210,6 @@ select {
     font-size: 17px;
     line-height: 60px;
     color: #FB8F1D;
-    margin-right: 90px;
 }
 .gallery-more::after {
     content: url(assets/vector-right.svg);
@@ -218,4 +218,109 @@ select {
 .gallery-list {
     display: flex;
     gap:30px;
+}
+
+                                    /* Guides */
+
+.guides-wraper {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 200px;
+}
+.guides-block {
+    margin-top: 100px;
+}
+
+                                    /* Rewies */
+
+.reviews-wraper {
+    margin-top: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.reviews-block {
+    
+}
+.reviews-title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    margin: 0px;
+}
+.reviews-list {
+    display: flex;
+    flex-direction: column;
+}
+.reviews-awards {
+    width: 189px;
+    margin-top: 145px;
+}
+.reviews-discription {
+    width: 450px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.reviews-avtor {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: #000000;
+    margin-top: 40px;
+}
+.reviews-area {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.85);
+}
+.reviews-menu {
+    position: relative;
+    margin-right: 130px;
+    margin-top: 90px;
+}
+.reviews-photo {
+    
+    z-index: 0;
+}
+.menu-btn {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}
+.fon {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    z-index: 2;
+}
+.btn-reviews {
+    z-index: 5;
+    cursor: pointer;
+    padding: 0px;
+    background: #fff;
+    border: 0px;
+}
+.left-btn {
+    position: absolute;
+    left: 30px;
+    bottom: 5px;
+}
+.right-btn {
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
 }
