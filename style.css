@@ -395,6 +395,9 @@ select {
 
 .footer {
     margin-top: 270px;
+    background: #F9F9FB;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .footer-container {
     display: flex;
@@ -428,7 +431,7 @@ select {
     font-size: 19px;
     color: #000000;
 }
-.footer-element {
+.footer-element > a {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 300;
@@ -439,7 +442,8 @@ select {
 .footer-element:nth-child(1) {
     margin-top: 15px;
 }
-.footer-element:hover {
+.footer-element > a:hover {
+    color: #000000;
     text-decoration: underline;
 }
 .social-container {
