@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    padding: 0px;
+    padding: 5px;
     /* 
     font-family: 'Inter', sans-serif; 
     font-family: 'Mulish', sans-serif;
@@ -20,20 +20,26 @@ a {
 
 
 
+
                             /* HEADER */
 .header {
     width:100%;
 }
 .container-header {
-    width: 1220px;
+    width: 100%;
+    max-width: 1220px;
     margin: 0 auto;
     margin-top: 45px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 40px;
+    box-sizing: border-box;
+}
+.logo {
+    margin-right: auto;
 }
 .navigation {
-    margin-left: 380px;
-    margin-right: 40px;
+  
 }
 .nav-list {
     font-family: 'Inter', sans-serif; 
@@ -81,7 +87,8 @@ a {
     color: black;
 }
 .container {
-    width: 1220px;
+    width: 100%;
+    max-width: 1220px;
     margin: 0 auto;
 }
 .wraper {
@@ -375,4 +382,85 @@ select {
     line-height: 30px;
     color: #000000;
     margin-top: 5px;
+}
+.stories-discription {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #7D7987;
+}
+.stories-more {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FB8F1D;
+}
+
+                                    /* Footer */
+
+
+.footer {
+    margin-top: 270px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-block {
+    width: 300px;
+}
+.footer-dicription {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #848484;
+    margin-top: 28px;
+}
+.footer-signature {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+    color: #848484;
+    margin-top: 55px;
+}
+.footer-list {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    color: #000000;
+}
+.footer-element {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #848484;
+}
+.footer-element:nth-child(1) {
+    margin-top: 15px;
+}
+.footer-element:hover {
+    text-decoration: underline;
+}
+.social-container {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 35px
+}
+.social-element:hover {
+    scale: 1.2;
 }
