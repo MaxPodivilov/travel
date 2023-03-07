@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    padding: 5px;
+    padding: 15px;
     /* 
     font-family: 'Inter', sans-serif; 
     font-family: 'Mulish', sans-serif;
@@ -51,7 +51,7 @@ a {
 }
 .nav-element > a:hover {
     text-decoration:underline;
-    color: black;
+    color: rgb(138, 131, 131);
 }
 .personal-list {
   display: flex;
@@ -100,6 +100,7 @@ a {
     font-size: 64px;
     line-height: 80px;
     color: #202336;
+    width: 400px;
 }
 .search-discription {
     font-family: 'Inter';
@@ -111,6 +112,7 @@ a {
     margin-top: 20px;
 }
 .search-list {
+    width: 400px;
     margin-top: 40px;
 }
 select {
@@ -148,8 +150,10 @@ select {
     color: #fff;
 }
 .photo-main {
-    position: relative;
+    position: absolute;
+    right: 0px;
     transform: translateX(85px);
+    z-index: -1;
 }
                                     /* explore */
 .explore-container {
@@ -157,7 +161,7 @@ select {
 }
 .explore-block {
     margin-top: 100px;
-    margin-left: 80px;
+    margin-left: auto;
 }
 .explore-title {
     font-family: 'Playfair Display';
@@ -178,8 +182,10 @@ select {
     color: #7D7987;
 }
 .explore-photo {
-    position: relative;
+    position: absolute;
+    left: 0px;
     transform: translateX(-40px);
+    z-index: -1;
 }
 
                                     /* Gallery */
@@ -219,6 +225,10 @@ select {
     display: flex;
     gap:30px;
 }
+.gallery-photo {
+    width: 100%;
+    max-width: 400px;
+}
 
                                     /* Guides */
 
@@ -229,6 +239,11 @@ select {
 }
 .guides-block {
     margin-top: 100px;
+}
+.guides-photo {
+    position: absolute;
+    right: 0px;
+    z-index: -1;
 }
 
                                     /* Rewies */
@@ -350,6 +365,7 @@ select {
     font-size: 17px;
     line-height: 60px;
     color: #FB8F1D;
+    margin-right: 20px;
 }
 .stories-all::after {
     content: url(assets/vector-right.svg);
@@ -361,7 +377,8 @@ select {
     gap:30px;
 }
 .stories-photo {
-    width: 260px;
+    width: 100%;
+    max-width: 260px;
     height: 230px;
 }
 .stories-name {
